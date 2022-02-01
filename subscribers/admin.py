@@ -3,7 +3,7 @@ from .models import Subscriber
 
 
 class SubscriberAdmin(ModelAdmin):
-    """Subscribers"""
+    """Subscribers """
 
     model = Subscriber
     menu_label = 'Subscribers'  # ditch this to use verbose_name_plural from model
